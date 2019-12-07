@@ -1,0 +1,479 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TicketType renders without crashing 1`] = `
+.c0 {
+  margin-left: 20px;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.c2 {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border: solid 1px #fff;
+  margin-right: 10px;
+}
+
+.c4 {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border: solid 1px #385846;
+  margin-right: 10px;
+}
+
+.c5 {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border: solid 1px #384b5d;
+  margin-right: 10px;
+}
+
+.c3 {
+  color: #fff;
+}
+
+<Memo(TicketType)
+  types={
+    Array [
+      Object {
+        "description": "Standard",
+        "id": 0,
+        "price": 60000,
+      },
+      Object {
+        "description": "VIP",
+        "id": 1,
+        "price": 90000,
+      },
+      Object {
+        "description": "Deluxe",
+        "id": 2,
+        "price": 100000,
+      },
+    ]
+  }
+>
+  <styled.div>
+    <StyledComponent
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": false,
+            "lastClassName": "c0",
+            "rules": Array [
+              "
+  margin-left: 20px;
+",
+            ],
+          },
+          "displayName": "styled.div",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+    >
+      <div
+        className="c0"
+      >
+        <styled.div
+          className="type-item"
+          key="0"
+        >
+          <StyledComponent
+            className="type-item"
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-bwzfXH",
+                  "isStatic": false,
+                  "lastClassName": "c1",
+                  "rules": Array [
+                    "
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+",
+                  ],
+                },
+                "displayName": "styled.div",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "sc-bwzfXH",
+                "target": "div",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+          >
+            <div
+              className="c1 type-item"
+            >
+              <styled.div
+                color="#fff"
+              >
+                <StyledComponent
+                  color="#fff"
+                  forwardedComponent={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": Array [],
+                      "componentStyle": ComponentStyle {
+                        "componentId": "sc-htpNat",
+                        "isStatic": false,
+                        "lastClassName": "c5",
+                        "rules": Array [
+                          "
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border: solid 1px ",
+                          [Function],
+                          ";
+  margin-right: 10px;
+",
+                        ],
+                      },
+                      "displayName": "styled.div",
+                      "foldedComponentIds": Array [],
+                      "render": [Function],
+                      "styledComponentId": "sc-htpNat",
+                      "target": "div",
+                      "toString": [Function],
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                    }
+                  }
+                  forwardedRef={null}
+                >
+                  <div
+                    className="c2"
+                    color="#fff"
+                  />
+                </StyledComponent>
+              </styled.div>
+              <styled.span
+                className="type-text"
+              >
+                <StyledComponent
+                  className="type-text"
+                  forwardedComponent={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": Array [],
+                      "componentStyle": ComponentStyle {
+                        "componentId": "sc-bxivhb",
+                        "isStatic": false,
+                        "lastClassName": "c3",
+                        "rules": Array [
+                          "
+  color: ",
+                          "#fff",
+                          ";
+",
+                        ],
+                      },
+                      "displayName": "styled.span",
+                      "foldedComponentIds": Array [],
+                      "render": [Function],
+                      "styledComponentId": "sc-bxivhb",
+                      "target": "span",
+                      "toString": [Function],
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                    }
+                  }
+                  forwardedRef={null}
+                >
+                  <span
+                    className="c3 type-text"
+                  >
+                    Standard
+                     - 
+                    60.000đ
+                  </span>
+                </StyledComponent>
+              </styled.span>
+            </div>
+          </StyledComponent>
+        </styled.div>
+        <styled.div
+          className="type-item"
+          key="1"
+        >
+          <StyledComponent
+            className="type-item"
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-bwzfXH",
+                  "isStatic": false,
+                  "lastClassName": "c1",
+                  "rules": Array [
+                    "
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+",
+                  ],
+                },
+                "displayName": "styled.div",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "sc-bwzfXH",
+                "target": "div",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+          >
+            <div
+              className="c1 type-item"
+            >
+              <styled.div
+                color="#385846"
+              >
+                <StyledComponent
+                  color="#385846"
+                  forwardedComponent={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": Array [],
+                      "componentStyle": ComponentStyle {
+                        "componentId": "sc-htpNat",
+                        "isStatic": false,
+                        "lastClassName": "c5",
+                        "rules": Array [
+                          "
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border: solid 1px ",
+                          [Function],
+                          ";
+  margin-right: 10px;
+",
+                        ],
+                      },
+                      "displayName": "styled.div",
+                      "foldedComponentIds": Array [],
+                      "render": [Function],
+                      "styledComponentId": "sc-htpNat",
+                      "target": "div",
+                      "toString": [Function],
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                    }
+                  }
+                  forwardedRef={null}
+                >
+                  <div
+                    className="c4"
+                    color="#385846"
+                  />
+                </StyledComponent>
+              </styled.div>
+              <styled.span
+                className="type-text"
+              >
+                <StyledComponent
+                  className="type-text"
+                  forwardedComponent={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": Array [],
+                      "componentStyle": ComponentStyle {
+                        "componentId": "sc-bxivhb",
+                        "isStatic": false,
+                        "lastClassName": "c3",
+                        "rules": Array [
+                          "
+  color: ",
+                          "#fff",
+                          ";
+",
+                        ],
+                      },
+                      "displayName": "styled.span",
+                      "foldedComponentIds": Array [],
+                      "render": [Function],
+                      "styledComponentId": "sc-bxivhb",
+                      "target": "span",
+                      "toString": [Function],
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                    }
+                  }
+                  forwardedRef={null}
+                >
+                  <span
+                    className="c3 type-text"
+                  >
+                    VIP
+                     - 
+                    90.000đ
+                  </span>
+                </StyledComponent>
+              </styled.span>
+            </div>
+          </StyledComponent>
+        </styled.div>
+        <styled.div
+          className="type-item"
+          key="2"
+        >
+          <StyledComponent
+            className="type-item"
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-bwzfXH",
+                  "isStatic": false,
+                  "lastClassName": "c1",
+                  "rules": Array [
+                    "
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+",
+                  ],
+                },
+                "displayName": "styled.div",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "sc-bwzfXH",
+                "target": "div",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+          >
+            <div
+              className="c1 type-item"
+            >
+              <styled.div
+                color="#384b5d"
+              >
+                <StyledComponent
+                  color="#384b5d"
+                  forwardedComponent={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": Array [],
+                      "componentStyle": ComponentStyle {
+                        "componentId": "sc-htpNat",
+                        "isStatic": false,
+                        "lastClassName": "c5",
+                        "rules": Array [
+                          "
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border: solid 1px ",
+                          [Function],
+                          ";
+  margin-right: 10px;
+",
+                        ],
+                      },
+                      "displayName": "styled.div",
+                      "foldedComponentIds": Array [],
+                      "render": [Function],
+                      "styledComponentId": "sc-htpNat",
+                      "target": "div",
+                      "toString": [Function],
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                    }
+                  }
+                  forwardedRef={null}
+                >
+                  <div
+                    className="c5"
+                    color="#384b5d"
+                  />
+                </StyledComponent>
+              </styled.div>
+              <styled.span
+                className="type-text"
+              >
+                <StyledComponent
+                  className="type-text"
+                  forwardedComponent={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": Array [],
+                      "componentStyle": ComponentStyle {
+                        "componentId": "sc-bxivhb",
+                        "isStatic": false,
+                        "lastClassName": "c3",
+                        "rules": Array [
+                          "
+  color: ",
+                          "#fff",
+                          ";
+",
+                        ],
+                      },
+                      "displayName": "styled.span",
+                      "foldedComponentIds": Array [],
+                      "render": [Function],
+                      "styledComponentId": "sc-bxivhb",
+                      "target": "span",
+                      "toString": [Function],
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                    }
+                  }
+                  forwardedRef={null}
+                >
+                  <span
+                    className="c3 type-text"
+                  >
+                    Deluxe
+                     - 
+                    100.000đ
+                  </span>
+                </StyledComponent>
+              </styled.span>
+            </div>
+          </StyledComponent>
+        </styled.div>
+      </div>
+    </StyledComponent>
+  </styled.div>
+</Memo(TicketType)>
+`;

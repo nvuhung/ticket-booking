@@ -1,0 +1,18 @@
+{
+  "extends": [
+    "tslint:recommended",
+    "tslint-eslint-rules",
+    "tslint-react",
+    "tslint-config-prettier"
+  ],
+  "jsRules": {},
+  "rules": {
+    "interface-name": false,
+    "jsx-no-lambda": false,
+    "object-literal-sort-keys": false,
+    "ordered-imports": false,
+    "member-access": false,
+    "quotemark": [true, "single", "jsx-double"]
+  },
+  "exclude": ["dist", "node_modules"]
+}

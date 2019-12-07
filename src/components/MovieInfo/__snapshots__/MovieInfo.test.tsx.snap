@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MovieInfo renders without crashing 1`] = `
+<Memo(MovieInfo)
+  movie={null}
+/>
+`;

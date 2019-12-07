@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Icon renders without crashing 1`] = `
+<Icon
+  name="zoom-in"
+>
+  <ForwardRef(SvgIcZoomIn)>
+    <svg>
+      ic-zoom-in.svg
+    </svg>
+  </ForwardRef(SvgIcZoomIn)>
+</Icon>
+`;

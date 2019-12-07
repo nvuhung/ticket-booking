@@ -1,0 +1,221 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Zoom renders without crashing 1`] = `
+.c0 {
+  height: 60px;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 26px;
+  position: relative;
+  outline: none;
+  margin-right: 20px;
+}
+
+.c1 {
+  outline: none;
+  cursor: pointer;
+  background: transparent;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 30px;
+  border: none;
+}
+
+.c1:focus {
+  outline: none;
+}
+
+<Memo(Zoom)
+  onZoomIn={[Function]}
+  onZoomOut={[Function]}
+>
+  <styled.div>
+    <StyledComponent
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": false,
+            "lastClassName": "c0",
+            "rules": Array [
+              "
+  height: 60px;
+  background-color: ",
+              "#fff",
+              ";
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 26px;
+  position: relative;
+  outline: none;
+  margin-right: 20px;
+",
+            ],
+          },
+          "displayName": "styled.div",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+    >
+      <div
+        className="c0"
+      >
+        <styled.button
+          onClick={[Function]}
+        >
+          <StyledComponent
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-bwzfXH",
+                  "isStatic": false,
+                  "lastClassName": "c1",
+                  "rules": Array [
+                    "
+  outline: none;
+  cursor: pointer;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  height: 30px;
+  border: none;
+  &:focus {
+    outline: none;
+  }
+",
+                  ],
+                },
+                "displayName": "styled.button",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "sc-bwzfXH",
+                "target": "button",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+            onClick={[Function]}
+          >
+            <button
+              className="c1"
+              onClick={[Function]}
+            >
+              <Icon
+                height={20}
+                name="zoom-out"
+                width={20}
+              >
+                <ForwardRef(SvgIcZoomOut)
+                  height={20}
+                  width={20}
+                >
+                  <svg
+                    height={20}
+                    width={20}
+                  >
+                    ic-zoom-out.svg
+                  </svg>
+                </ForwardRef(SvgIcZoomOut)>
+              </Icon>
+            </button>
+          </StyledComponent>
+        </styled.button>
+        <styled.button
+          onClick={[Function]}
+        >
+          <StyledComponent
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-bwzfXH",
+                  "isStatic": false,
+                  "lastClassName": "c1",
+                  "rules": Array [
+                    "
+  outline: none;
+  cursor: pointer;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  height: 30px;
+  border: none;
+  &:focus {
+    outline: none;
+  }
+",
+                  ],
+                },
+                "displayName": "styled.button",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "sc-bwzfXH",
+                "target": "button",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+            onClick={[Function]}
+          >
+            <button
+              className="c1"
+              onClick={[Function]}
+            >
+              <Icon
+                height={20}
+                name="zoom-in"
+                width={20}
+              >
+                <ForwardRef(SvgIcZoomIn)
+                  height={20}
+                  width={20}
+                >
+                  <svg
+                    height={20}
+                    width={20}
+                  >
+                    ic-zoom-in.svg
+                  </svg>
+                </ForwardRef(SvgIcZoomIn)>
+              </Icon>
+            </button>
+          </StyledComponent>
+        </styled.button>
+      </div>
+    </StyledComponent>
+  </styled.div>
+</Memo(Zoom)>
+`;
